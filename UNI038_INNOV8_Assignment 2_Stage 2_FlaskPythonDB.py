@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Konfigurasi MongoDB
-MONGO_URI = uri = "mongodb+srv://fauzanariftricahya:Iqb4ik7xJ93NCLaj@cluster-ojan.jns5d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-Ojan"
+MONGO_URI = "mongodb+srv://fauzanariftricahya:Iqb4ik7xJ93NCLaj@cluster-ojan.jns5d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-Ojan"
 DATABASE_NAME = "iot_data"
 COLLECTION_NAME = "sensor"
 
